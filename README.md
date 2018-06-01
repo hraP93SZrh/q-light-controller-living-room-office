@@ -1,10 +1,8 @@
 ---
-title: README
+title: Q Light Controller, README
 ...
 
 <div id="content">
-
-[](){#top}
 Q Light Controller, README
 ==========================
 
@@ -13,8 +11,8 @@ Residential Use\
 
 Overview
 --------
-
 [Back to Top](#top)
+
 Q Light Contoller files for fixtures and universe settings. These files
 are used daily to control lighting in the living room and office.
 
