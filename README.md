@@ -11,8 +11,7 @@ Residential Use\
 
 Overview
 --------
-[Back to Top](#top)
-
+[Back to Top](#top)\
 Q Light Contoller files for fixtures and universe settings. These files
 are used daily to control lighting in the living room and office.
 
@@ -23,7 +22,7 @@ tablet by pointing at the IP address using port 9999.
 Fixtures
 --------
 
-[Back to Top](#top)
+[Back to Top](#top)\
 The following fixtures are utilized in each of these two environments.
 
 [![B-2805FC](./images/458-b2805-594x187.png){.thumbimage width="594"
@@ -49,7 +48,7 @@ height="216"}**B-565FC**
 Available\_Files
 ----------------
 
-[Back to Top](#top)
+[Back to Top](#top)\
 **133-qlc-editor-version-ovation-b-2805fc-plexFix.qxf** — Ovation
 B-2805FC, all 135 channels with the following personalities available:
 
