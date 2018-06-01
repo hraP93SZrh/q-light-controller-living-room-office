@@ -17,7 +17,7 @@ The controller is accessible from a desktop, laptop, smart-phone, or tablet by p
 
 The following fixtures are utilized in each of these two environments.
 
-[[B-2805FC](./images/458-b2805-594x187.png)](http://www.guitarcenter.com/CHAUVET-Professional/Ovation-B-2805FC-RGBAL-LED-Batten-Style-Bar-Wash-Light-1500000047800.gc)**B-2805FC**
+[![B-2805FC](./images/458-b2805-594x187.png)](http://www.guitarcenter.com/CHAUVET-Professional/Ovation-B-2805FC-RGBAL-LED-Batten-Style-Bar-Wash-Light-1500000047800.gc)**B-2805FC**
 
 -   Ovation B-2805FC
     1.  Light Source: 280 LEDs (60 red, 60 green, 60 blue, 40 amber,
@@ -26,7 +26,7 @@ The following fixtures are utilized in each of these two environments.
     3.  Dimensions: 69 x 8.26 x 8.13” (1,753 x 210 x 207 mm)
     4.  Weight: 45.4 lb.
 
-[B-565FC](./images/463-b565fc-296x217.png)**B-565FC**
+![B-565FC](./images/463-b565fc-296x217.png)**B-565FC**
 -   Chuvet Ovation B-565FC
     1.  Light Source: 56 LEDs (12 red, 12 green, 12 blue, 8 amber,
         12 lime) 8 W, (740 mA), 50,000 hrs life expectancy.
