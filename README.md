@@ -1,8 +1,6 @@
 <div id="content">
-# Q Light Controller, README
-
-Residential Use
-
+# Q Light Controller, README  
+Residential Use  
 06/01/2018
 
 ## Overview
