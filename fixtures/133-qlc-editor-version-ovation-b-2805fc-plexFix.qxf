@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.10.5b</Version>
+  <Author>lastM from the Ovation FD-165WW by Robert Box</Author>
+ </Creator>
+ <Manufacturer>Chauvet</Manufacturer>
+ <Model>Ovation B-2805FC-133-plexFix.qxf</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">0-100%</Capability>
+ </Channel>
+ <Channel Name="Dimmer Fine">
+  <Group Byte="1">Intensity</Group>
+  <Capability Min="0" Max="255">16-bit</Capability>
+ </Channel>
+ <Channel Name="Red 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Red Fine 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Green 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Green Fine 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Blue Fine 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Amber 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Amber Fine 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Lime 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Lime Fine 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Virtual Color Wheel 1">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="13">Cal90 Yellow</Capability>
+  <Capability Min="14" Max="21">R11-Light Straw</Capability>
+  <Capability Min="22" Max="28">R312-Canary</Capability>
+  <Capability Min="29" Max="35">R03-Dark B Amber</Capability>
+  <Capability Min="36" Max="43">R18-Flame</Capability>
+  <Capability Min="44" Max="51">R20-Medium Amber</Capability>
+  <Capability Min="52" Max="59">R21-Golden Amber</Capability>
+  <Capability Min="60" Max="67">R26-Light Red</Capability>
+  <Capability Min="68" Max="75">R27-Medium Red</Capability>
+  <Capability Min="76" Max="83">R33-No Color Pink</Capability>
+  <Capability Min="84" Max="91">R337-True Pink</Capability>
+  <Capability Min="92" Max="99">R38-Light Rose</Capability>
+  <Capability Min="100" Max="107">R41-Salmon</Capability>
+  <Capability Min="108" Max="115">R42-Deep Salmon</Capability>
+  <Capability Min="116" Max="121">R44-Middle Rose</Capability>
+  <Capability Min="122" Max="130">R349-Fisher Fuchsia</Capability>
+  <Capability Min="131" Max="138">R54-Special Lavender</Capability>
+  <Capability Min="139" Max="146">R64-Light Steel Blue</Capability>
+  <Capability Min="147" Max="154">R364-Blue Bell</Capability>
+  <Capability Min="155" Max="162">R65-Daylight Blue</Capability>
+  <Capability Min="163" Max="170">R80-Primary Blue</Capability>
+  <Capability Min="171" Max="178">R81-Urban Blue</Capability>
+  <Capability Min="187" Max="194">R382-Congo Blue</Capability>
+  <Capability Min="195" Max="202">R83-Medium Blue</Capability>
+  <Capability Min="203" Max="210">R383-Sapphire Blue</Capability>
+  <Capability Min="211" Max="218">R90-Dk Yellow Green</Capability>
+  <Capability Min="219" Max="226">R91-Primary Green</Capability>
+  <Capability Min="227" Max="234">R92-Turquoise</Capability>
+  <Capability Min="235" Max="242">R93-Blue Green</Capability>
+  <Capability Min="243" Max="250">R393-Emerald Green</Capability>
+  <Capability Min="251" Max="255">No function</Capability>
+ </Channel>
+ <Channel Name="Color Temperature 1">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="25">2800K</Capability>
+  <Capability Min="26" Max="50">3200K</Capability>
+  <Capability Min="51" Max="75">3500K</Capability>
+  <Capability Min="76" Max="100">4000K</Capability>
+  <Capability Min="101" Max="125">4500K</Capability>
+  <Capability Min="126" Max="150">5000K</Capability>
+  <Capability Min="151" Max="175">5600K</Capability>
+  <Capability Min="176" Max="200">6000K</Capability>
+  <Capability Min="201" Max="225">6500K</Capability>
+  <Capability Min="226" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe 1">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Red 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Red Fine 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Green 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Green Fine 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Blue Fine 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Amber 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Amber Fine 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Lime 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Lime Fine 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Virtual Color Wheel 2">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="13">Cal90 Yellow</Capability>
+  <Capability Min="14" Max="21">R11-Light Straw</Capability>
+  <Capability Min="22" Max="28">R312-Canary</Capability>
+  <Capability Min="29" Max="35">R03-Dark B Amber</Capability>
+  <Capability Min="36" Max="43">R18-Flame</Capability>
+  <Capability Min="44" Max="51">R20-Medium Amber</Capability>
+  <Capability Min="52" Max="59">R21-Golden Amber</Capability>
+  <Capability Min="60" Max="67">R26-Light Red</Capability>
+  <Capability Min="68" Max="75">R27-Medium Red</Capability>
+  <Capability Min="76" Max="83">R33-No Color Pink</Capability>
+  <Capability Min="84" Max="91">R337-True Pink</Capability>
+  <Capability Min="92" Max="99">R38-Light Rose</Capability>
+  <Capability Min="100" Max="107">R41-Salmon</Capability>
+  <Capability Min="108" Max="115">R42-Deep Salmon</Capability>
+  <Capability Min="116" Max="121">R44-Middle Rose</Capability>
+  <Capability Min="122" Max="130">R349-Fisher Fuchsia</Capability>
+  <Capability Min="131" Max="138">R54-Special Lavender</Capability>
+  <Capability Min="139" Max="146">R64-Light Steel Blue</Capability>
+  <Capability Min="147" Max="154">R364-Blue Bell</Capability>
+  <Capability Min="155" Max="162">R65-Daylight Blue</Capability>
+  <Capability Min="163" Max="170">R80-Primary Blue</Capability>
+  <Capability Min="171" Max="178">R81-Urban Blue</Capability>
+  <Capability Min="187" Max="194">R382-Congo Blue</Capability>
+  <Capability Min="195" Max="202">R83-Medium Blue</Capability>
+  <Capability Min="203" Max="210">R383-Sapphire Blue</Capability>
+  <Capability Min="211" Max="218">R90-Dk Yellow Green</Capability>
+  <Capability Min="219" Max="226">R91-Primary Green</Capability>
+  <Capability Min="227" Max="234">R92-Turquoise</Capability>
+  <Capability Min="235" Max="242">R93-Blue Green</Capability>
+  <Capability Min="243" Max="250">R393-Emerald Green</Capability>
+  <Capability Min="251" Max="255">No function</Capability>
+ </Channel>
+ <Channel Name="Color Temperature 2">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="25">2800K</Capability>
+  <Capability Min="26" Max="50">3200K</Capability>
+  <Capability Min="51" Max="75">3500K</Capability>
+  <Capability Min="76" Max="100">4000K</Capability>
+  <Capability Min="101" Max="125">4500K</Capability>
+  <Capability Min="126" Max="150">5000K</Capability>
+  <Capability Min="151" Max="175">5600K</Capability>
+  <Capability Min="176" Max="200">6000K</Capability>
+  <Capability Min="201" Max="225">6500K</Capability>
+  <Capability Min="226" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe 2">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Red 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Red Fine 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Green 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Green Fine 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Blue Fine 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Amber 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Amber Fine 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Lime 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Lime Fine 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Virtual Color Wheel 3">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="13">Cal90 Yellow</Capability>
+  <Capability Min="14" Max="21">R11-Light Straw</Capability>
+  <Capability Min="22" Max="28">R312-Canary</Capability>
+  <Capability Min="29" Max="35">R03-Dark B Amber</Capability>
+  <Capability Min="36" Max="43">R18-Flame</Capability>
+  <Capability Min="44" Max="51">R20-Medium Amber</Capability>
+  <Capability Min="52" Max="59">R21-Golden Amber</Capability>
+  <Capability Min="60" Max="67">R26-Light Red</Capability>
+  <Capability Min="68" Max="75">R27-Medium Red</Capability>
+  <Capability Min="76" Max="83">R33-No Color Pink</Capability>
+  <Capability Min="84" Max="91">R337-True Pink</Capability>
+  <Capability Min="92" Max="99">R38-Light Rose</Capability>
+  <Capability Min="100" Max="107">R41-Salmon</Capability>
+  <Capability Min="108" Max="115">R42-Deep Salmon</Capability>
+  <Capability Min="116" Max="121">R44-Middle Rose</Capability>
+  <Capability Min="122" Max="130">R349-Fisher Fuchsia</Capability>
+  <Capability Min="131" Max="138">R54-Special Lavender</Capability>
+  <Capability Min="139" Max="146">R64-Light Steel Blue</Capability>
+  <Capability Min="147" Max="154">R364-Blue Bell</Capability>
+  <Capability Min="155" Max="162">R65-Daylight Blue</Capability>
+  <Capability Min="163" Max="170">R80-Primary Blue</Capability>
+  <Capability Min="171" Max="178">R81-Urban Blue</Capability>
+  <Capability Min="187" Max="194">R382-Congo Blue</Capability>
+  <Capability Min="195" Max="202">R83-Medium Blue</Capability>
+  <Capability Min="203" Max="210">R383-Sapphire Blue</Capability>
+  <Capability Min="211" Max="218">R90-Dk Yellow Green</Capability>
+  <Capability Min="219" Max="226">R91-Primary Green</Capability>
+  <Capability Min="227" Max="234">R92-Turquoise</Capability>
+  <Capability Min="235" Max="242">R93-Blue Green</Capability>
+  <Capability Min="243" Max="250">R393-Emerald Green</Capability>
+  <Capability Min="251" Max="255">No function</Capability>
+ </Channel>
+ <Channel Name="Color Temperature 3">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="25">2800K</Capability>
+  <Capability Min="26" Max="50">3200K</Capability>
+  <Capability Min="51" Max="75">3500K</Capability>
+  <Capability Min="76" Max="100">4000K</Capability>
+  <Capability Min="101" Max="125">4500K</Capability>
+  <Capability Min="126" Max="150">5000K</Capability>
+  <Capability Min="151" Max="175">5600K</Capability>
+  <Capability Min="176" Max="200">6000K</Capability>
+  <Capability Min="201" Max="225">6500K</Capability>
+  <Capability Min="226" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe 3">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Red 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Red Fine 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Green 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Green Fine 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Blue Fine 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Amber 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Amber Fine 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Lime 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Lime Fine 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Virtual Color Wheel 4">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="13">Cal90 Yellow</Capability>
+  <Capability Min="14" Max="21">R11-Light Straw</Capability>
+  <Capability Min="22" Max="28">R312-Canary</Capability>
+  <Capability Min="29" Max="35">R03-Dark B Amber</Capability>
+  <Capability Min="36" Max="43">R18-Flame</Capability>
+  <Capability Min="44" Max="51">R20-Medium Amber</Capability>
+  <Capability Min="52" Max="59">R21-Golden Amber</Capability>
+  <Capability Min="60" Max="67">R26-Light Red</Capability>
+  <Capability Min="68" Max="75">R27-Medium Red</Capability>
+  <Capability Min="76" Max="83">R33-No Color Pink</Capability>
+  <Capability Min="84" Max="91">R337-True Pink</Capability>
+  <Capability Min="92" Max="99">R38-Light Rose</Capability>
+  <Capability Min="100" Max="107">R41-Salmon</Capability>
+  <Capability Min="108" Max="115">R42-Deep Salmon</Capability>
+  <Capability Min="116" Max="121">R44-Middle Rose</Capability>
+  <Capability Min="122" Max="130">R349-Fisher Fuchsia</Capability>
+  <Capability Min="131" Max="138">R54-Special Lavender</Capability>
+  <Capability Min="139" Max="146">R64-Light Steel Blue</Capability>
+  <Capability Min="147" Max="154">R364-Blue Bell</Capability>
+  <Capability Min="155" Max="162">R65-Daylight Blue</Capability>
+  <Capability Min="163" Max="170">R80-Primary Blue</Capability>
+  <Capability Min="171" Max="178">R81-Urban Blue</Capability>
+  <Capability Min="187" Max="194">R382-Congo Blue</Capability>
+  <Capability Min="195" Max="202">R83-Medium Blue</Capability>
+  <Capability Min="203" Max="210">R383-Sapphire Blue</Capability>
+  <Capability Min="211" Max="218">R90-Dk Yellow Green</Capability>
+  <Capability Min="219" Max="226">R91-Primary Green</Capability>
+  <Capability Min="227" Max="234">R92-Turquoise</Capability>
+  <Capability Min="235" Max="242">R93-Blue Green</Capability>
+  <Capability Min="243" Max="250">R393-Emerald Green</Capability>
+  <Capability Min="251" Max="255">No function</Capability>
+ </Channel>
+ <Channel Name="Color Temperature 4">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="25">2800K</Capability>
+  <Capability Min="26" Max="50">3200K</Capability>
+  <Capability Min="51" Max="75">3500K</Capability>
+  <Capability Min="76" Max="100">4000K</Capability>
+  <Capability Min="101" Max="125">4500K</Capability>
+  <Capability Min="126" Max="150">5000K</Capability>
+  <Capability Min="151" Max="175">5600K</Capability>
+  <Capability Min="176" Max="200">6000K</Capability>
+  <Capability Min="201" Max="225">6500K</Capability>
+  <Capability Min="226" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe 4">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Red 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Red Fine 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Green 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Green Fine 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Blue Fine 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Amber 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Amber Fine 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Lime 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Lime Fine 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Virtual Color Wheel 5">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="13">Cal90 Yellow</Capability>
+  <Capability Min="14" Max="21">R11-Light Straw</Capability>
+  <Capability Min="22" Max="28">R312-Canary</Capability>
+  <Capability Min="29" Max="35">R03-Dark B Amber</Capability>
+  <Capability Min="36" Max="43">R18-Flame</Capability>
+  <Capability Min="44" Max="51">R20-Medium Amber</Capability>
+  <Capability Min="52" Max="59">R21-Golden Amber</Capability>
+  <Capability Min="60" Max="67">R26-Light Red</Capability>
+  <Capability Min="68" Max="75">R27-Medium Red</Capability>
+  <Capability Min="76" Max="83">R33-No Color Pink</Capability>
+  <Capability Min="84" Max="91">R337-True Pink</Capability>
+  <Capability Min="92" Max="99">R38-Light Rose</Capability>
+  <Capability Min="100" Max="107">R41-Salmon</Capability>
+  <Capability Min="108" Max="115">R42-Deep Salmon</Capability>
+  <Capability Min="116" Max="121">R44-Middle Rose</Capability>
+  <Capability Min="122" Max="130">R349-Fisher Fuchsia</Capability>
+  <Capability Min="131" Max="138">R54-Special Lavender</Capability>
+  <Capability Min="139" Max="146">R64-Light Steel Blue</Capability>
+  <Capability Min="147" Max="154">R364-Blue Bell</Capability>
+  <Capability Min="155" Max="162">R65-Daylight Blue</Capability>
+  <Capability Min="163" Max="170">R80-Primary Blue</Capability>
+  <Capability Min="171" Max="178">R81-Urban Blue</Capability>
+  <Capability Min="187" Max="194">R382-Congo Blue</Capability>
+  <Capability Min="195" Max="202">R83-Medium Blue</Capability>
+  <Capability Min="203" Max="210">R383-Sapphire Blue</Capability>
+  <Capability Min="211" Max="218">R90-Dk Yellow Green</Capability>
+  <Capability Min="219" Max="226">R91-Primary Green</Capability>
+  <Capability Min="227" Max="234">R92-Turquoise</Capability>
+  <Capability Min="235" Max="242">R93-Blue Green</Capability>
+  <Capability Min="243" Max="250">R393-Emerald Green</Capability>
+  <Capability Min="251" Max="255">No function</Capability>
+ </Channel>
+ <Channel Name="Color Temperature 5">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="25">2800K</Capability>
+  <Capability Min="26" Max="50">3200K</Capability>
+  <Capability Min="51" Max="75">3500K</Capability>
+  <Capability Min="76" Max="100">4000K</Capability>
+  <Capability Min="101" Max="125">4500K</Capability>
+  <Capability Min="126" Max="150">5000K</Capability>
+  <Capability Min="151" Max="175">5600K</Capability>
+  <Capability Min="176" Max="200">6000K</Capability>
+  <Capability Min="201" Max="225">6500K</Capability>
+  <Capability Min="226" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe 5">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Red 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Red Fine 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Green 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Green Fine 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Blue Fine 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Amber 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Amber Fine 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Lime 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Lime Fine 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Virtual Color Wheel 6">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="13">Cal90 Yellow</Capability>
+  <Capability Min="14" Max="21">R11-Light Straw</Capability>
+  <Capability Min="22" Max="28">R312-Canary</Capability>
+  <Capability Min="29" Max="35">R03-Dark B Amber</Capability>
+  <Capability Min="36" Max="43">R18-Flame</Capability>
+  <Capability Min="44" Max="51">R20-Medium Amber</Capability>
+  <Capability Min="52" Max="59">R21-Golden Amber</Capability>
+  <Capability Min="60" Max="67">R26-Light Red</Capability>
+  <Capability Min="68" Max="75">R27-Medium Red</Capability>
+  <Capability Min="76" Max="83">R33-No Color Pink</Capability>
+  <Capability Min="84" Max="91">R337-True Pink</Capability>
+  <Capability Min="92" Max="99">R38-Light Rose</Capability>
+  <Capability Min="100" Max="107">R41-Salmon</Capability>
+  <Capability Min="108" Max="115">R42-Deep Salmon</Capability>
+  <Capability Min="116" Max="121">R44-Middle Rose</Capability>
+  <Capability Min="122" Max="130">R349-Fisher Fuchsia</Capability>
+  <Capability Min="131" Max="138">R54-Special Lavender</Capability>
+  <Capability Min="139" Max="146">R64-Light Steel Blue</Capability>
+  <Capability Min="147" Max="154">R364-Blue Bell</Capability>
+  <Capability Min="155" Max="162">R65-Daylight Blue</Capability>
+  <Capability Min="163" Max="170">R80-Primary Blue</Capability>
+  <Capability Min="171" Max="178">R81-Urban Blue</Capability>
+  <Capability Min="187" Max="194">R382-Congo Blue</Capability>
+  <Capability Min="195" Max="202">R83-Medium Blue</Capability>
+  <Capability Min="203" Max="210">R383-Sapphire Blue</Capability>
+  <Capability Min="211" Max="218">R90-Dk Yellow Green</Capability>
+  <Capability Min="219" Max="226">R91-Primary Green</Capability>
+  <Capability Min="227" Max="234">R92-Turquoise</Capability>
+  <Capability Min="235" Max="242">R93-Blue Green</Capability>
+  <Capability Min="243" Max="250">R393-Emerald Green</Capability>
+  <Capability Min="251" Max="255">No function</Capability>
+ </Channel>
+ <Channel Name="Color Temperature 6">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="25">2800K</Capability>
+  <Capability Min="26" Max="50">3200K</Capability>
+  <Capability Min="51" Max="75">3500K</Capability>
+  <Capability Min="76" Max="100">4000K</Capability>
+  <Capability Min="101" Max="125">4500K</Capability>
+  <Capability Min="126" Max="150">5000K</Capability>
+  <Capability Min="151" Max="175">5600K</Capability>
+  <Capability Min="176" Max="200">6000K</Capability>
+  <Capability Min="201" Max="225">6500K</Capability>
+  <Capability Min="226" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe 6">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Red 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Red Fine 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Green 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Green Fine 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Blue Fine 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Amber 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Amber Fine 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Lime 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Lime Fine 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Virtual Color Wheel 7">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="13">Cal90 Yellow</Capability>
+  <Capability Min="14" Max="21">R11-Light Straw</Capability>
+  <Capability Min="22" Max="28">R312-Canary</Capability>
+  <Capability Min="29" Max="35">R03-Dark B Amber</Capability>
+  <Capability Min="36" Max="43">R18-Flame</Capability>
+  <Capability Min="44" Max="51">R20-Medium Amber</Capability>
+  <Capability Min="52" Max="59">R21-Golden Amber</Capability>
+  <Capability Min="60" Max="67">R26-Light Red</Capability>
+  <Capability Min="68" Max="75">R27-Medium Red</Capability>
+  <Capability Min="76" Max="83">R33-No Color Pink</Capability>
+  <Capability Min="84" Max="91">R337-True Pink</Capability>
+  <Capability Min="92" Max="99">R38-Light Rose</Capability>
+  <Capability Min="100" Max="107">R41-Salmon</Capability>
+  <Capability Min="108" Max="115">R42-Deep Salmon</Capability>
+  <Capability Min="116" Max="121">R44-Middle Rose</Capability>
+  <Capability Min="122" Max="130">R349-Fisher Fuchsia</Capability>
+  <Capability Min="131" Max="138">R54-Special Lavender</Capability>
+  <Capability Min="139" Max="146">R64-Light Steel Blue</Capability>
+  <Capability Min="147" Max="154">R364-Blue Bell</Capability>
+  <Capability Min="155" Max="162">R65-Daylight Blue</Capability>
+  <Capability Min="163" Max="170">R80-Primary Blue</Capability>
+  <Capability Min="171" Max="178">R81-Urban Blue</Capability>
+  <Capability Min="187" Max="194">R382-Congo Blue</Capability>
+  <Capability Min="195" Max="202">R83-Medium Blue</Capability>
+  <Capability Min="203" Max="210">R383-Sapphire Blue</Capability>
+  <Capability Min="211" Max="218">R90-Dk Yellow Green</Capability>
+  <Capability Min="219" Max="226">R91-Primary Green</Capability>
+  <Capability Min="227" Max="234">R92-Turquoise</Capability>
+  <Capability Min="235" Max="242">R93-Blue Green</Capability>
+  <Capability Min="243" Max="250">R393-Emerald Green</Capability>
+  <Capability Min="251" Max="255">No function</Capability>
+ </Channel>
+ <Channel Name="Color Temperature 7">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="25">2800K</Capability>
+  <Capability Min="26" Max="50">3200K</Capability>
+  <Capability Min="51" Max="75">3500K</Capability>
+  <Capability Min="76" Max="100">4000K</Capability>
+  <Capability Min="101" Max="125">4500K</Capability>
+  <Capability Min="126" Max="150">5000K</Capability>
+  <Capability Min="151" Max="175">5600K</Capability>
+  <Capability Min="176" Max="200">6000K</Capability>
+  <Capability Min="201" Max="225">6500K</Capability>
+  <Capability Min="226" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe 7">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Red 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Red Fine 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Green 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Green Fine 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Blue Fine 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Amber 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Amber Fine 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Lime 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Lime Fine 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Virtual Color Wheel 8">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="13">Cal90 Yellow</Capability>
+  <Capability Min="14" Max="21">R11-Light Straw</Capability>
+  <Capability Min="22" Max="28">R312-Canary</Capability>
+  <Capability Min="29" Max="35">R03-Dark B Amber</Capability>
+  <Capability Min="36" Max="43">R18-Flame</Capability>
+  <Capability Min="44" Max="51">R20-Medium Amber</Capability>
+  <Capability Min="52" Max="59">R21-Golden Amber</Capability>
+  <Capability Min="60" Max="67">R26-Light Red</Capability>
+  <Capability Min="68" Max="75">R27-Medium Red</Capability>
+  <Capability Min="76" Max="83">R33-No Color Pink</Capability>
+  <Capability Min="84" Max="91">R337-True Pink</Capability>
+  <Capability Min="92" Max="99">R38-Light Rose</Capability>
+  <Capability Min="100" Max="107">R41-Salmon</Capability>
+  <Capability Min="108" Max="115">R42-Deep Salmon</Capability>
+  <Capability Min="116" Max="121">R44-Middle Rose</Capability>
+  <Capability Min="122" Max="130">R349-Fisher Fuchsia</Capability>
+  <Capability Min="131" Max="138">R54-Special Lavender</Capability>
+  <Capability Min="139" Max="146">R64-Light Steel Blue</Capability>
+  <Capability Min="147" Max="154">R364-Blue Bell</Capability>
+  <Capability Min="155" Max="162">R65-Daylight Blue</Capability>
+  <Capability Min="163" Max="170">R80-Primary Blue</Capability>
+  <Capability Min="171" Max="178">R81-Urban Blue</Capability>
+  <Capability Min="187" Max="194">R382-Congo Blue</Capability>
+  <Capability Min="195" Max="202">R83-Medium Blue</Capability>
+  <Capability Min="203" Max="210">R383-Sapphire Blue</Capability>
+  <Capability Min="211" Max="218">R90-Dk Yellow Green</Capability>
+  <Capability Min="219" Max="226">R91-Primary Green</Capability>
+  <Capability Min="227" Max="234">R92-Turquoise</Capability>
+  <Capability Min="235" Max="242">R93-Blue Green</Capability>
+  <Capability Min="243" Max="250">R393-Emerald Green</Capability>
+  <Capability Min="251" Max="255">No function</Capability>
+ </Channel>
+ <Channel Name="Color Temperature 8">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="25">2800K</Capability>
+  <Capability Min="26" Max="50">3200K</Capability>
+  <Capability Min="51" Max="75">3500K</Capability>
+  <Capability Min="76" Max="100">4000K</Capability>
+  <Capability Min="101" Max="125">4500K</Capability>
+  <Capability Min="126" Max="150">5000K</Capability>
+  <Capability Min="151" Max="175">5600K</Capability>
+  <Capability Min="176" Max="200">6000K</Capability>
+  <Capability Min="201" Max="225">6500K</Capability>
+  <Capability Min="226" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe 8">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Red 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Red Fine 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Green 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Green Fine 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Blue Fine 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Amber 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Amber Fine 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Lime 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Lime Fine 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Virtual Color Wheel 9">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="13">Cal90 Yellow</Capability>
+  <Capability Min="14" Max="21">R11-Light Straw</Capability>
+  <Capability Min="22" Max="28">R312-Canary</Capability>
+  <Capability Min="29" Max="35">R03-Dark B Amber</Capability>
+  <Capability Min="36" Max="43">R18-Flame</Capability>
+  <Capability Min="44" Max="51">R20-Medium Amber</Capability>
+  <Capability Min="52" Max="59">R21-Golden Amber</Capability>
+  <Capability Min="60" Max="67">R26-Light Red</Capability>
+  <Capability Min="68" Max="75">R27-Medium Red</Capability>
+  <Capability Min="76" Max="83">R33-No Color Pink</Capability>
+  <Capability Min="84" Max="91">R337-True Pink</Capability>
+  <Capability Min="92" Max="99">R38-Light Rose</Capability>
+  <Capability Min="100" Max="107">R41-Salmon</Capability>
+  <Capability Min="108" Max="115">R42-Deep Salmon</Capability>
+  <Capability Min="116" Max="121">R44-Middle Rose</Capability>
+  <Capability Min="122" Max="130">R349-Fisher Fuchsia</Capability>
+  <Capability Min="131" Max="138">R54-Special Lavender</Capability>
+  <Capability Min="139" Max="146">R64-Light Steel Blue</Capability>
+  <Capability Min="147" Max="154">R364-Blue Bell</Capability>
+  <Capability Min="155" Max="162">R65-Daylight Blue</Capability>
+  <Capability Min="163" Max="170">R80-Primary Blue</Capability>
+  <Capability Min="171" Max="178">R81-Urban Blue</Capability>
+  <Capability Min="187" Max="194">R382-Congo Blue</Capability>
+  <Capability Min="195" Max="202">R83-Medium Blue</Capability>
+  <Capability Min="203" Max="210">R383-Sapphire Blue</Capability>
+  <Capability Min="211" Max="218">R90-Dk Yellow Green</Capability>
+  <Capability Min="219" Max="226">R91-Primary Green</Capability>
+  <Capability Min="227" Max="234">R92-Turquoise</Capability>
+  <Capability Min="235" Max="242">R93-Blue Green</Capability>
+  <Capability Min="243" Max="250">R393-Emerald Green</Capability>
+  <Capability Min="251" Max="255">No function</Capability>
+ </Channel>
+ <Channel Name="Color Temperature 9">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="25">2800K</Capability>
+  <Capability Min="26" Max="50">3200K</Capability>
+  <Capability Min="51" Max="75">3500K</Capability>
+  <Capability Min="76" Max="100">4000K</Capability>
+  <Capability Min="101" Max="125">4500K</Capability>
+  <Capability Min="126" Max="150">5000K</Capability>
+  <Capability Min="151" Max="175">5600K</Capability>
+  <Capability Min="176" Max="200">6000K</Capability>
+  <Capability Min="201" Max="225">6500K</Capability>
+  <Capability Min="226" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe 9">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Red 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Red Fine 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Green 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Green Fine 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Blue Fine 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Amber 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Amber Fine 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+ </Channel>
+ <Channel Name="Lime 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Lime Fine 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Lime</Colour>
+ </Channel>
+ <Channel Name="Virtual Color Wheel 10">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="13">Cal90 Yellow</Capability>
+  <Capability Min="14" Max="21">R11-Light Straw</Capability>
+  <Capability Min="22" Max="28">R312-Canary</Capability>
+  <Capability Min="29" Max="35">R03-Dark B Amber</Capability>
+  <Capability Min="36" Max="43">R18-Flame</Capability>
+  <Capability Min="44" Max="51">R20-Medium Amber</Capability>
+  <Capability Min="52" Max="59">R21-Golden Amber</Capability>
+  <Capability Min="60" Max="67">R26-Light Red</Capability>
+  <Capability Min="68" Max="75">R27-Medium Red</Capability>
+  <Capability Min="76" Max="83">R33-No Color Pink</Capability>
+  <Capability Min="84" Max="91">R337-True Pink</Capability>
+  <Capability Min="92" Max="99">R38-Light Rose</Capability>
+  <Capability Min="100" Max="107">R41-Salmon</Capability>
+  <Capability Min="108" Max="115">R42-Deep Salmon</Capability>
+  <Capability Min="116" Max="121">R44-Middle Rose</Capability>
+  <Capability Min="122" Max="130">R349-Fisher Fuchsia</Capability>
+  <Capability Min="131" Max="138">R54-Special Lavender</Capability>
+  <Capability Min="139" Max="146">R64-Light Steel Blue</Capability>
+  <Capability Min="147" Max="154">R364-Blue Bell</Capability>
+  <Capability Min="155" Max="162">R65-Daylight Blue</Capability>
+  <Capability Min="163" Max="170">R80-Primary Blue</Capability>
+  <Capability Min="171" Max="178">R81-Urban Blue</Capability>
+  <Capability Min="187" Max="194">R382-Congo Blue</Capability>
+  <Capability Min="195" Max="202">R83-Medium Blue</Capability>
+  <Capability Min="203" Max="210">R383-Sapphire Blue</Capability>
+  <Capability Min="211" Max="218">R90-Dk Yellow Green</Capability>
+  <Capability Min="219" Max="226">R91-Primary Green</Capability>
+  <Capability Min="227" Max="234">R92-Turquoise</Capability>
+  <Capability Min="235" Max="242">R93-Blue Green</Capability>
+  <Capability Min="243" Max="250">R393-Emerald Green</Capability>
+  <Capability Min="251" Max="255">No function</Capability>
+ </Channel>
+ <Channel Name="Color Temperature 10">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="25">2800K</Capability>
+  <Capability Min="26" Max="50">3200K</Capability>
+  <Capability Min="51" Max="75">3500K</Capability>
+  <Capability Min="76" Max="100">4000K</Capability>
+  <Capability Min="101" Max="125">4500K</Capability>
+  <Capability Min="126" Max="150">5000K</Capability>
+  <Capability Min="151" Max="175">5600K</Capability>
+  <Capability Min="176" Max="200">6000K</Capability>
+  <Capability Min="201" Max="225">6500K</Capability>
+  <Capability Min="226" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Strobe 10">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Strobe All">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10">No function</Capability>
+  <Capability Min="11" Max="255">Slow to fast</Capability>
+ </Channel>
+ <Channel Name="Color Macros">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="15">No function</Capability>
+  <Capability Min="16" Max="255">Color macros</Capability>
+ </Channel>
+ <Channel Name="Dimmer Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="51">Preset dimmer speed from display menu</Capability>
+  <Capability Min="52" Max="101">Dimmer speed mode off</Capability>
+  <Capability Min="102" Max="152">Dimmer speed 1 (fastest)</Capability>
+  <Capability Min="153" Max="203">Dimmer speed 2</Capability>
+  <Capability Min="204" Max="255">Dimmer speed 3 (slowest)</Capability>
+ </Channel>
+ <Mode Name="2-Cell RGBAL EXT 19CH">
+  <Physical>
+   <Bulb Type="LED" Lumens="5586" ColourTemperature="6500"/>
+   <Dimensions Weight="20.5" Width="1753" Height="210" Depth="207"/>
+   <Lens Name="Other" DegreesMin="20" DegreesMax="52"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="620" DmxConnector="3-pin and 5-pin"/>
+  </Physical>
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Dimmer Fine</Channel>
+  <Channel Number="2">Red 1</Channel>
+  <Channel Number="3">Green 1</Channel>
+  <Channel Number="4">Blue 1</Channel>
+  <Channel Number="5">Amber 1</Channel>
+  <Channel Number="6">Lime 1</Channel>
+  <Channel Number="7">Virtual Color Wheel 1</Channel>
+  <Channel Number="8">Color Temperature 1</Channel>
+  <Channel Number="9">Strobe 1</Channel>
+  <Channel Number="10">Red 2</Channel>
+  <Channel Number="11">Green 2</Channel>
+  <Channel Number="12">Blue 2</Channel>
+  <Channel Number="13">Amber 2</Channel>
+  <Channel Number="14">Lime 2</Channel>
+  <Channel Number="15">Virtual Color Wheel 2</Channel>
+  <Channel Number="16">Color Temperature 2</Channel>
+  <Channel Number="17">Strobe 2</Channel>
+  <Channel Number="18">Strobe All</Channel>
+  <Head>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+  </Head>
+  <Head>
+   <Channel>10</Channel>
+   <Channel>11</Channel>
+   <Channel>12</Channel>
+   <Channel>13</Channel>
+   <Channel>14</Channel>
+   <Channel>15</Channel>
+   <Channel>16</Channel>
+   <Channel>17</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="2-Cell RGBA EXT 17CH">
+  <Physical>
+   <Bulb Type="LED" Lumens="5586" ColourTemperature="6500"/>
+   <Dimensions Weight="20.5" Width="1753" Height="210" Depth="207"/>
+   <Lens Name="Other" DegreesMin="20" DegreesMax="52"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="620" DmxConnector="3-pin and 5-pin"/>
+  </Physical>
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Dimmer Fine</Channel>
+  <Channel Number="2">Red 1</Channel>
+  <Channel Number="3">Green 1</Channel>
+  <Channel Number="4">Blue 1</Channel>
+  <Channel Number="5">Amber 1</Channel>
+  <Channel Number="6">Virtual Color Wheel 1</Channel>
+  <Channel Number="7">Color Temperature 1</Channel>
+  <Channel Number="8">Strobe 1</Channel>
+  <Channel Number="9">Red 2</Channel>
+  <Channel Number="10">Green 2</Channel>
+  <Channel Number="11">Blue 2</Channel>
+  <Channel Number="12">Amber 2</Channel>
+  <Channel Number="13">Virtual Color Wheel 2</Channel>
+  <Channel Number="14">Color Temperature 2</Channel>
+  <Channel Number="15">Strobe 2</Channel>
+  <Channel Number="16">Strobe All</Channel>
+  <Head>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+  </Head>
+  <Head>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+   <Channel>11</Channel>
+   <Channel>12</Channel>
+   <Channel>13</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="2-Cell RGB EXT 15CH">
+  <Physical>
+   <Bulb Type="LED" Lumens="5586" ColourTemperature="6500"/>
+   <Dimensions Weight="20.5" Width="1753" Height="210" Depth="207"/>
+   <Lens Name="Other" DegreesMin="20" DegreesMax="52"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="620" DmxConnector="3-pin and 5-pin"/>
+  </Physical>
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Dimmer Fine</Channel>
+  <Channel Number="2">Red 1</Channel>
+  <Channel Number="3">Green 1</Channel>
+  <Channel Number="4">Blue 1</Channel>
+  <Channel Number="5">Virtual Color Wheel 1</Channel>
+  <Channel Number="6">Color Temperature 1</Channel>
+  <Channel Number="7">Strobe 1</Channel>
+  <Channel Number="8">Red 2</Channel>
+  <Channel Number="9">Green 2</Channel>
+  <Channel Number="10">Blue 2</Channel>
+  <Channel Number="11">Virtual Color Wheel 2</Channel>
+  <Channel Number="12">Color Temperature 2</Channel>
+  <Channel Number="13">Strobe 2</Channel>
+  <Channel Number="14">Strobe All</Channel>
+  <Head>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+  </Head>
+  <Head>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+   <Channel>11</Channel>
+   <Channel>12</Channel>
+   <Channel>13</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="2-Cell RGBAL 10CH">
+  <Physical>
+   <Bulb Type="LED" Lumens="5586" ColourTemperature="6500"/>
+   <Dimensions Weight="20.5" Width="1753" Height="210" Depth="207"/>
+   <Lens Name="Other" DegreesMin="20" DegreesMax="52"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="620" DmxConnector="3-pin and 5-pin"/>
+  </Physical>
+  <Channel Number="0">Red 1</Channel>
+  <Channel Number="1">Green 1</Channel>
+  <Channel Number="2">Blue 1</Channel>
+  <Channel Number="3">Amber 1</Channel>
+  <Channel Number="4">Lime 1</Channel>
+  <Channel Number="5">Red 2</Channel>
+  <Channel Number="6">Green 2</Channel>
+  <Channel Number="7">Blue 2</Channel>
+  <Channel Number="8">Amber 2</Channel>
+  <Channel Number="9">Lime 2</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+  </Head>
+  <Head>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="2-Cell RGBA 8CH">
+  <Physical>
+   <Bulb Type="LED" Lumens="5586" ColourTemperature="6500"/>
+   <Dimensions Weight="20.5" Width="1753" Height="210" Depth="207"/>
+   <Lens Name="Other" DegreesMin="20" DegreesMax="52"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="620" DmxConnector="3-pin and 5-pin"/>
+  </Physical>
+  <Channel Number="0">Red 1</Channel>
+  <Channel Number="1">Green 1</Channel>
+  <Channel Number="2">Blue 1</Channel>
+  <Channel Number="3">Amber 1</Channel>
+  <Channel Number="4">Red 2</Channel>
+  <Channel Number="5">Green 2</Channel>
+  <Channel Number="6">Blue 2</Channel>
+  <Channel Number="7">Amber 2</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+  </Head>
+  <Head>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="1-Cell RGBAL 17CH">
+  <Physical>
+   <Bulb Type="LED" Lumens="5586" ColourTemperature="6500"/>
+   <Dimensions Weight="20.5" Width="1753" Height="210" Depth="207"/>
+   <Lens Name="Other" DegreesMin="20" DegreesMax="52"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="620" DmxConnector="3-pin and 5-pin"/>
+  </Physical>
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Dimmer Fine</Channel>
+  <Channel Number="2">Red 1</Channel>
+  <Channel Number="3">Red Fine 1</Channel>
+  <Channel Number="4">Green 1</Channel>
+  <Channel Number="5">Green Fine 1</Channel>
+  <Channel Number="6">Blue 1</Channel>
+  <Channel Number="7">Blue Fine 1</Channel>
+  <Channel Number="8">Amber 1</Channel>
+  <Channel Number="9">Amber Fine 1</Channel>
+  <Channel Number="10">Lime 1</Channel>
+  <Channel Number="11">Lime Fine 1</Channel>
+  <Channel Number="12">Virtual Color Wheel 1</Channel>
+  <Channel Number="13">Color Temperature 1</Channel>
+  <Channel Number="14">Strobe All</Channel>
+  <Channel Number="15">Color Macros</Channel>
+  <Channel Number="16">Dimmer Speed</Channel>
+ </Mode>
+</FixtureDefinition>
