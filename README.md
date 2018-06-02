@@ -47,9 +47,12 @@ The following fixtures are utilized in each of these two environments.
 -   2-Cell RGBA 8CH
 -   1-Cell RGBAL 17CH
 
-![Port:9999](./images/222-qlcplus-controller-450px.png)**Port 9999 Created with #171**
+**171-operational-lr-office-875.qxw** — Operational two universe QXW controller file.  This file creates a web-based control panel when started with: `xvfb-run qlcplus -w -p -g -o /qlightingPlus/171-operational-lr-office-875.qxw`.  A larger image is available in the [images subdirectory as #221](./images/221-qlcplus-controller.png).
 
-**171-operational-lr-office-875.qxw** — Operational two universe QXW controller file.  This file creates when run in `xvfb-run qlcplus -w -p -g -o /qlightingPlus/171-operational-lr-office-875.qxw`.  A larger image is available in the [images subdirectory as #221](./images/221-qlcplus-controller.png).
+![Port:9999](./images/222-qlcplus-controller-450px.png)
+
+**Port 9999 Created with #171**
+
 
 
 
