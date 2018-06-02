@@ -2,7 +2,6 @@
 # Q Light Controller, README  
 
 Residential Use  
-
 06/01/2018
 
 ## Overview
