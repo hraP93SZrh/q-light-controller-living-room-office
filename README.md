@@ -1,4 +1,3 @@
-<div id="content">
 ## Q Light Controller, README  
 
 Residential Use  
@@ -48,4 +47,3 @@ The following fixtures are utilized in each of these two environments.
 -   2-Cell RGBA 8CH
 -   1-Cell RGBAL 17CH
 
-</div>
