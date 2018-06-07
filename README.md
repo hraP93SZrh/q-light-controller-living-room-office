@@ -112,9 +112,14 @@ This odd name is used in order to find the controlling file more easily for demo
 #### ArtNet Considerations
 With separate IP  addresses for each of the DMXKing eDMX controllers, each universe can point at its own.  These IP addresses can be seen on the office test version of the nearby "Inputs/Outputs" screen.  The two eDMX controllers at 192.168.125.144 (Office) and 192.168.125.145 (Living Room) can be seen on the "Inputs/Outputs" entitle, Office Test Configuration -- Nodes, along with the QLC ArtNet interfaces at .141 and .101.
 
-[Office Test Configuration -- Universes](./images/553-ard--125-office-universe-configuration.png)
 
-[Office Test Configuration -- Nodes](./images/554-ard--125-office-nodes-tree.png)
+
+![B-565FC](./images/463-b565fc-296x217.png)**B-565FC**
+
+![Universes](./images/553-ard--125-office-universe-configuration.png)[Office Test Configuration -- Universes]
+
+![Nodes](./images/554-ard--125-office-nodes-tree.png)[Office Test Configuration -- Nodes]
+
 
 
 
