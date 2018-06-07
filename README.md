@@ -7,7 +7,7 @@ Residential Use
 
 [Back to Top](#top)
 
-This is an implementation project using [Q Lighting Controller+](http://www.qlcplus.org) by [Massimo Callegari](@mcallegari).  The files here were created in the Q Light Controller+ v.4.10.5 console for fixtures and universe settings. These files are used daily to control lighting in a living room and home-office.
+This is an implementation project using [Q Lighting Controller+](http://www.qlcplus.org) by [Massimo Callegari](https://github.com/mcallegari).  The files here were created in the Q Light Controller+ v.4.10.5 console for fixtures and universe settings. These files are used daily to control lighting in a living room and home-office.
 
 The headless server is running Ubuntu 16.04, Xenial in a virtual box.  The local-area-network has two DMXKing eDMX controllers running ArtNet.  The fixtures driven by `qlcplus` are described below.
 
