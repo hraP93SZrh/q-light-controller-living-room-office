@@ -114,9 +114,8 @@ With separate IP  addresses for each of the DMXKing eDMX controllers, each unive
 
 
 
-![B-565FC](./images/463-b565fc-296x217.png)**B-565FC**
 
-![Universes](./images/553-ard--125-office-universe-configuration.png)[Office Test Configuration -- Universes]
+![Universes](./images/553-ard-125-office-universe-configuration.png)[Office Test Configuration -- Universes]
 
 ![Nodes](./images/554-ard--125-office-nodes-tree.png)[Office Test Configuration -- Nodes]
 
